@@ -21,7 +21,6 @@ Create a Folder in the Assets folder named Plugins and add the Dll in the Plugin
     {
         if (CountProtected.CompareValue(count))
         {
-            count = CountProtected.GetInt();
             count += 1;
             CountProtected.ApplyNewValue(count);
         }
