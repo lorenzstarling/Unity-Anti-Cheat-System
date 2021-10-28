@@ -41,6 +41,6 @@ as a little extra you can encrypt and decrypt strings for example if you want to
        string DecryptText = EncryptorManager.DecryptSrtings(EnrcyptText); // And Decrypt the Encrypt Value 
  ```
   ## That's it, simple or?
- important is that you don't set the scripting backend to mono but to IL2CPP when you build the game otherwise someone can easily read and change your assembly with [dnSpy](https://github.com/dnSpy/dnSpy).
-To do this go to Edit > Project Settings > Player in your unity project and under other settings you will find it. 
+ important is that you don't set the scripting backend to mono but to IL2CPP when you build the game otherwise someone can easily read and change your assembly with [dnSpy](https://github.com/dnSpy/dnSpy). To do this go to Edit > Project Settings > Player in your unity project and under other settings you will find it. 
+
 ![myImage](https://media.giphy.com/media/XRB1uf2F9bGOA/giphy.gif)
