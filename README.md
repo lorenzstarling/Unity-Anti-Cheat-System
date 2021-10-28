@@ -4,7 +4,7 @@ Simple Unity Anti Cheat to Protect your Values
 ## Add Api
 Create a Folder in the Assets folder named Plugins and add the Dll in the Plugins folder
 
-## CallInitValues() in Awake()
+## Call InitValues() in Awake()
 ```csharp
    int count = 0;
    
