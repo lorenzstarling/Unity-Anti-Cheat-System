@@ -7,6 +7,7 @@ Create a Folder in the Assets folder named Plugins and add the Dll in the Plugin
 ## Call InitValues() in Awake()
 ```csharp
    int count = 0;
+   ProtectedValue CountProtected;
    
   private void InitValues()
     {
