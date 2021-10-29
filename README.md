@@ -11,7 +11,7 @@ Create a Folder in the Assets folder named Plugins and add the Dll in the Plugin
    
   private void InitValues()
     {
-        CountProtected = new ProtectedValue(count);
+        CountProtected = new ProtectedValue(count); //ProtectedValue Supported Value types int, bool, string (beta)
         count = CountProtected.GetInt();
     }
  ```
