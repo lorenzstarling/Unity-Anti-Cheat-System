@@ -17,7 +17,7 @@ Create a Folder in the Assets folder named Plugins and add the Dll in the Plugin
     }
  ```
  
- ## UpdateValue and Check is Value Modified
+ ## Update the Value and Check was Value Modified
 ```csharp
       private void AddValue()
     {
